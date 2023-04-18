@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@Layer base {
+    .py-navbar-item {
+        @apply py-3
+    }
+    .px-navbar-item {
+        @apply px-4
+    }
+}
+
+@layer components {
+    .btn-primary {
+      @apply flex items-center text-white bg-purple-600 py-2 px-4 rounded shadow-md hover:bg-purple-700 active:bg-purple-800 transition-colors;
+    }
+}
+
+.wysiwyg-content h3, 
+.wysiwyg-content h4 {
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.wysiwyg-content table > tbody > tr > td{
+  padding: 0.25rem 0.125rem;
+}
+.wysiwyg-content table > tbody > tr > td:first-child {
+  font-weight: bold;
+}
+
+.table>tbody>tr>td,
+.table>thead>tr>th {
+  padding: 0.5rem;
+}
+.table-sm>tbody>tr>td,
+.table-sm>thead>tr>th {
+  padding: 0.25rem;
+}
