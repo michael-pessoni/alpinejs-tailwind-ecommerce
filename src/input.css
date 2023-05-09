@@ -2,19 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
-@Layer base {
-    .py-navbar-item {
-        @apply py-3
-    }
-    .px-navbar-item {
-        @apply px-4
-    }
+@layer base {
+  .py-navbar-item {
+    @apply py-6
+  }
+
+  .pt-navbar-item {
+    @apply pt-6
+  }
+
+  .pb-navbar-item {
+    @apply pb-6
+  }
+
+  .px-navbar-item {
+    @apply px-3
+  }
+
+  .pl-navbar-item {
+    @apply pl-3
+  }
+
+  .pr-navbar-item {
+    @apply pr-3
+  }
 }
 
 @layer components {
-    .btn-primary {
-      @apply flex items-center text-white bg-purple-600 py-2 px-4 rounded shadow-md hover:bg-purple-700 active:bg-purple-800 transition-colors;
-    }
+  .btn-primary {
+    @apply text-white bg-purple-600 py-2 px-4 rounded shadow-md hover:bg-purple-700 active:bg-purple-800 transition-colors;
+  }
+}
+
+body {
+  background-color: #e5e7eb;
 }
 
 .wysiwyg-content h3, 
