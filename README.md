@@ -14,7 +14,12 @@ This app uses the following technologies:
 
 # Screenshots
 
+### Desktop
+
 ![Preview-Screens](https://github.com/michael-pessoni/alpinejs-tailwind-ecommerce/blob/master/img/screenshots_desktop.png)
+
+### Mobile
+
 ![Preview-Screens-Mobile](https://github.com/michael-pessoni/alpinejs-tailwind-ecommerce/blob/master/img/screenshots_mobile.png)
 
 
